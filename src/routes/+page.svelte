@@ -28,7 +28,7 @@
 
 body {
     margin: 0;
-    background-image: url("/images/TEAMimpact.png");
+    background-image: url("/images/homepage.png");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +43,6 @@ body {
   padding: 10px;
   padding-top: 30px;
   height: 300px;
-  
 }
 
 
@@ -72,20 +71,23 @@ h3, span {
 }
 .link-list {
     list-style-type: none;
-    padding: 0;
 }
 
 .link-list li {
     margin-bottom: 10px;
+    
 }
 
+
 .link-list li a {
+    width: 60%;
     display: block;
     text-decoration: none;
     color: #333;
     background-color: var(--impact-yellow);
     padding: 10px 20px; 
     border-radius: 5px; 
+    margin-bottom: 2em;
 }
 
 .link-list li a:hover {
@@ -93,7 +95,6 @@ h3, span {
     color: var(--impact-yellow);
     border: solid 2px black;
 }
-
 
 @media screen and (max-width: 600px) {
   .column {
