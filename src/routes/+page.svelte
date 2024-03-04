@@ -7,9 +7,9 @@
     
         <div class="column">
              <ul class="link-list">
-                <li><a href="/">CREATIVE</a></li>
-                <li><a href="/">MODEL</a></li>
-                <li><a href="/">CREW</a></li>
+                <a href="/">CREATIVE</a>
+                <a href="/">MODEL</a>
+                <a href="/">CREW</a>
             </ul>
         </div>
 </body>
@@ -22,9 +22,9 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-    :root {
+:root {
         --impact-yellow: #F8F053;
-    }
+}
 
 body {
     margin: 0;
@@ -35,14 +35,15 @@ body {
     background-size: cover;
     position: relative;
     text-align: center;
+    justify-content: center;
 }
 
 .column {
   float: left;
-  width: 50%;
   padding: 10px;
   padding-top: 30px;
   height: 300px;
+  width: 100%;
 }
 
 
@@ -57,48 +58,70 @@ h1 {
     font-size: 120px;
 }
 
-span { 
-        color: var(--impact-yellow);
-    }
-
-h3 {
+h3, span {
+    font-family: MADE Future x;
+    font-size: 25px;
     color: white;
 }
+/* span { 
+        color: var(--impact-yellow);
+    } */
 
-h3, span {
-    font-family: Arial, Helvetica, sans-serif;
+
+
+.link-list a {
     font-size: 20px;
-}
-.link-list {
-    list-style-type: none;
-}
-
-.link-list li {
-    margin-bottom: 10px;
-    
-}
-
-
-.link-list li a {
-    width: 60%;
+    background-color: var(--impact-yellow);
+    color: black;
+    width: 100%;
     display: block;
     text-decoration: none;
-    color: #333;
-    background-color: var(--impact-yellow);
-    padding: 10px 20px; 
+    padding: 1em; 
     border-radius: 5px; 
     margin-bottom: 2em;
 }
 
-.link-list li a:hover {
+.link-list a:hover {
     background-color: transparent; 
     color: var(--impact-yellow);
-    border: solid 2px black;
+    border: solid 2px var(--impact-yellow);
 }
 
-@media screen and (max-width: 600px) {
+ul {
+    padding: 0;
+}
+
+/* @media screen and (max-width: 600px) {
+
   .column {
     width: 100%;
   }
+} */
+
+
+@media only screen and (min-width: 750px) {
+    body {
+        margin-top: 2em;
+    }
+    
+    .column {
+        width: 50%;
+    }
+    h1 {
+        color: var(--impact-yellow);
+        font-size: 15vw;
+    }
+
+    h3, span {
+        font-size: 3vw;
+    }
+
+    .link-list a {
+        font-size: 2vw;
+    }
+
+    .link-list {
+        margin-top: 2em;
+    }
 }
 </style>
