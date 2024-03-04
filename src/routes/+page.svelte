@@ -7,9 +7,9 @@
     
         <div class="column">
              <ul class="link-list">
-                <a href="/">CREATIVE</a>
-                <a href="/">MODEL</a>
-                <a href="/">CREW</a>
+                <a href="/creative">CREATIVE</a>
+                <a href="/model">MODEL</a>
+                <a href="/crew">CREW</a>
             </ul>
         </div>
 </body>
