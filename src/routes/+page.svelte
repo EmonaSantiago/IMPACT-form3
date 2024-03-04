@@ -1,3 +1,6 @@
+<script>
+    import Footer from "$lib/components/footer.svelte";
+</script>
 <body>
     <div class="row">
         <div class="column">
@@ -12,6 +15,8 @@
                 <a href="/crew">CREW</a>
             </ul>
         </div>
+
+        <Footer></Footer>
 </body>
 
 
