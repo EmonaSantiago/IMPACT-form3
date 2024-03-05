@@ -7,10 +7,10 @@
  <!-- Full name -->
   <div class="row">
     <div class="col-25">
-      <label for="full-name">Full Name</label>
+      <label for="full-name">FULL NAME </label>
     </div>
     <div class="col-75">
-      <input type="text" name="full-name" id="full-name" placeholder="First and Last" required="">
+      <input type="text" name="full-name" id="full-name" placeholder="" required="">
     </div>
   </div>
 
@@ -18,17 +18,17 @@
     <!-- Link insta web -->
     <div class="row">
         <div class="col-25">
-          <label for="link">Link</label>
+          <label for="link">LINK TO SOCIALS</label>
         </div>
         <div class="col-75">
-          <input type="text" name="link" id="link" placeholder="link insta or website" required="">
+          <input type="text" name="link" id="link" placeholder="EX: instagram , tiktok , website OR other" required="">
         </div>
       </div>
 
         <!-- Gender -->
           <div class="row">
             <div class="col-25">
-              <label for="gender">Please select your gender identity:</label>
+              <label for="gender">GENDER</label>
             </div>
             <div class="col-75">
               <select id="gender" name="gender">
@@ -43,10 +43,10 @@
       <!-- Length -->
       <div class="row">
         <div class="col-25">
-          <label for="Lenght">Length</label>
+          <label for="Lenght">LENGTH</label>
         </div>
         <div class="col-75">
-          <input type="text" name="length" id="length" placeholder="Your length..." required="">
+          <input type="text" name="length" id="length" placeholder="EX: 1.73" required="">
         </div>
       </div>
       
@@ -54,40 +54,40 @@
       <!-- Size top -->
       <div class="row">
         <div class="col-25">
-          <label for="size-top">size-top</label>
+          <label for="size-top">SIZE CLOTHING TOP</label>
         </div>
         <div class="col-75">
-          <input type="text" name="size-top" id="size-top" placeholder="Your size-top..." required="">
+          <input type="text" name="size-top" id="size-top" placeholder="EX: S/36 , M/38" required="">
         </div>
       </div>
       
   <!-- Size bottom -->
   <div class="row">
     <div class="col-25">
-      <label for="size-bottom">size-bottom</label>
+      <label for="size-bottom">SIZE CLOTHING BOTTOM</label>
     </div>
     <div class="col-75">
-      <input type="text" name="size-bottom" id="size-bottom" placeholder="Your Size-bottom..." required="">
+      <input type="text" name="size-bottom" id="size-bottom" placeholder="EX: 32/34" required="">
     </div>
   </div>
   
    <!-- Shoe size -->
    <div class="row">
     <div class="col-25">
-      <label for="shoe-size">shoe-size</label>
+      <label for="shoe-size">SHOE SIZE</label>
     </div>
     <div class="col-75">
-      <input type="text" name="shoe-size" id="shoe-size" placeholder="Your shoe-size..." required="">
+      <input type="text" name="shoe-size" id="shoe-size" placeholder="EU size" required="">
     </div>
   </div>
 
      <!-- Email -->
      <div class="row">
         <div class="col-25">
-          <label for="email-address">Email Address</label>
+          <label for="email-address">EMAIL</label>
         </div>
         <div class="col-75">
-          <input type="text" name="email" id="email-address" placeholder="email@domain.tld" required="">
+          <input type="text" name="email" id="email-address" placeholder="EX: myname@example.com" required="">
         </div>
       </div>
 
@@ -95,20 +95,20 @@
       <!-- Telefoon nummer -->
       <div class="row">
         <div class="col-25">
-          <label for="phone-nummer">Phone number</label>
+          <label for="phone-nummer">PHONE NUMBER</label>
         </div>
         <div class="col-75">
-          <input type="text" name="phone-name" id="phone-number" placeholder="+31()" required="">
+          <input type="text" name="phone-name" id="phone-number" placeholder="+31 6" required="">
         </div>
       </div>
 
           <!-- Motivatie message -->
           <div class="row">
             <div class="col-25">
-              <label for="motivation-message">Motivation message</label>
+              <label for="motivation-message">MOTIVATION</label>
             </div>
             <div class="col-75">
-              <textarea rows="3" name="message" id="message" required="" placeholder="Motivation message "></textarea>
+              <textarea rows="3" name="message" id="message" required="" placeholder="The reason why i want to join as a model..."></textarea>
           <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
             </div>
           </div>
