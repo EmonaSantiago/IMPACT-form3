@@ -17,7 +17,7 @@
             </ul>
         </div>
 
-        <Footer></Footer>
+        <!-- <Footer></Footer> -->
 </body>
 
 
