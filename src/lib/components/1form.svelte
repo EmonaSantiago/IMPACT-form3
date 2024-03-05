@@ -37,7 +37,7 @@
        <!-- Link insta web -->
        <div class="row">
            <div class="col-25">
-             <label for="link">lINK TO SOCIALS</label>
+             <label for="link">LINK TO SOCIALS</label>
            </div>
            <div class="col-75">
              <input type="text" name="link" id="link" placeholder="EX: instagram , tiktok , website OR other" required="https:/">
