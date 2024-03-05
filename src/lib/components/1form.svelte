@@ -1,6 +1,6 @@
 <body>
     <div class="container">
-       <form action="https://formspree.io/f/mgegkpdq" method="POST">
+       <form action="https://formspree.io/f/mpzvlaob" method="POST">
    
         <!-- Full name -->
         <div class="row">
