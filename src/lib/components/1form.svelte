@@ -18,7 +18,7 @@
             <label for="branch">BRANCH</label>
           </div>
           <div class="col-75">
-            <input type="text" name="branch" id="branch" placeholder="EX: Fashion , Visuals , music , art , beauty, lifestyle OR other" required="">
+            <input type="text" name="branch" id="branch" placeholder="EX: fashion ,  visuals , music , art , beauty, lifestyle OR other" required="">
           </div>
         </div>
 
