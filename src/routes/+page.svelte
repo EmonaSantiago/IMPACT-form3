@@ -4,8 +4,9 @@
 <body>
     <div class="row">
         <div class="column">
-          <h1>IMPACT</h1>
-          <h3>WELCOME TO THE IMPACT <span>APPLICATION FORM</span></h3>
+            <img src="/images/logo.png" alt="Italian Trulli" >
+          <h3>WELCOME TO THE IMPACT</h3>
+        <span>APPLICATION FORM</span>
         </div>
     
         <div class="column">
@@ -16,7 +17,7 @@
             </ul>
         </div>
 
-        <!-- <Footer></Footer> -->
+        <Footer></Footer>
 </body>
 
 
@@ -29,6 +30,10 @@
 
 :root {
         --impact-yellow: #F8F053;
+}
+
+img {
+    width: 100%;
 }
 
 body {
@@ -64,13 +69,15 @@ h1 {
 }
 
 h3, span {
-    font-family: MADE Future x;
-    font-size: 25px;
-    color: white;
+    /* font-family: MADE Future x; */
+    font-size: 30px;
+    /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white; */
+  color: white;
 }
-/* span { 
+span { 
         color: var(--impact-yellow);
-    } */
+    }
 
 
 
@@ -125,8 +132,8 @@ ul {
         font-size: 2vw;
     }
 
-    .link-list {
+    /* .link-list {
         margin-top: 2em;
-    }
+    } */
 }
 </style>

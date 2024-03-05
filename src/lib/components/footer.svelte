@@ -20,7 +20,7 @@
 }
 
 .container {
-  padding: 20px;
+  padding: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,11 +42,12 @@ h2 {
 }
 
 /* Media query for mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .container {
     flex-direction: column;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    bottom: 0;
   }
 
   h2 {
