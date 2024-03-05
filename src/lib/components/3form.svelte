@@ -6,57 +6,69 @@
  <!-- Full name -->
  <div class="row">
     <div class="col-25">
-      <label for="full-name">Full Name</label>
+      <label for="full-name">FULL NAME</label>
     </div>
     <div class="col-75">
-      <input type="text" name="full-name" id="full-name" placeholder="First and Last" required="">
+      <input type="text" name="full-name" id="full-name" placeholder="" required="">
     </div>
   </div>
 
    <!-- Function -->
    <div class="row">
     <div class="col-25">
-      <label for="function">Your Function</label>
+      <label for="function">ROLE</label>
     </div>
     <div class="col-75">
-      <input type="text" name="function" id="function" placeholder="...." required="">
+      <input type="text" name="function" id="function" placeholder="EX: photo/videographer , marketeer , audio-Visual , technician, security OR other" required="">
     </div>
   </div>
+
+
+       <!-- Link insta web -->
+       <div class="row">
+        <div class="col-25">
+          <label for="link">lINK TO SOCIALS</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="link" id="link" placeholder="EX: instagram , tiktok , website OR other" required="https:/">
+        </div>
+      </div>
+
 
  <!-- Email -->
  <div class="row">
     <div class="col-25">
-      <label for="email-address">Email Address</label>
+      <label for="email-address">EMAIL</label>
     </div>
     <div class="col-75">
-      <input type="text" name="email" id="email-address" placeholder="email@domain.tld" required="">
+      <input type="text" name="email" id="email-address" placeholder="EX: myname@example.com" required="">
     </div>
   </div>
 
  <!-- Telefoon nummer -->
       <div class="row">
         <div class="col-25">
-          <label for="phone-nummer">Phone number</label>
+          <label for="phone-nummer">PHONE NUMBER</label>
         </div>
         <div class="col-75">
-          <input type="text" name="phone-name" id="phone-number" placeholder="+31()" required="">
+          <input type="text" name="phone-name" id="phone-number" placeholder="+31 6" required="">
         </div>
       </div>
 
  <!-- Motivatie message -->
       <div class="row">
         <div class="col-25">
-          <label for="motivation-message">Motivation message</label>
+          <label for="motivation-message">MOTIVATION</label>
         </div>
         <div class="col-75">
-          <textarea rows="3" name="message" id="message" required="" placeholder="Motivation message "></textarea>
+          <textarea rows="3" name="message" id="message" required="" placeholder="The reason why i want to join as a crew member..."></textarea>
       <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
         </div>
       </div>
 <!-- How did you hear about this form? -->
 <div class="row">
     <div class="col-25">
-      <label for="reclame">How did you hear about this form?</label>
+      <label for="reclame">HOW DID YOU HEAR ABOUT THIS FORM?</label>
     </div>
     <div class="col-75">
       <select id="reclame" name="reclame">

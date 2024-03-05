@@ -8,7 +8,7 @@
   <div class="row">
       <div class="column">
           <h1>IMPACT</h1>
-          <h3>*Bij het aanmelden is het belangrijk om te onthouden dat je niet meteen aangemeld bent. Er volgt namelijk nog een selectieprocedure waar je doorheen moet komen.</h3>
+          <h3>"Looking to be part of a great team? Join us as a crew member and help us make our events even more impactfull! Whether you're experienced or just starting out, there's a place for you. Let's work together, have fun, and create memorable experiences. Apply now and be part of something special!"</h3>
       </div>
       <div class="column">
         <Form></Form>
