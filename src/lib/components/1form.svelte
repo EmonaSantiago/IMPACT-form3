@@ -2,14 +2,34 @@
     <div class="container">
        <form action="https://formspree.io/f/mgegkpdq" method="POST">
    
+        <!-- Full name -->
+        <div class="row">
+          <div class="col-25">
+            <label for="full-name">FULL NAME</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="full-name" id="full-name" placeholder="" required="">
+          </div>
+        </div>
+
+         <!-- Branch --> 
+         <div class="row">
+          <div class="col-25">
+            <label for="branch">BRANCH</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="branch" id="branch" placeholder="EX: Fashion , Visuals , music , art , beauty, lifestyle OR other" required="">
+          </div>
+        </div>
+
    
          <!-- Brand name -->
          <div class="row">
            <div class="col-25">
-             <label for="brand-name">Brand name</label>
+             <label for="brand-name">BRAND NAME</label>
            </div>
            <div class="col-75">
-             <input type="text" name="brand-name" id="Brand name" placeholder="Your Brand Name" required="">
+             <input type="text" name="brand-name" id="Brand name" placeholder="" required="">
            </div>
          </div>
    
@@ -17,51 +37,32 @@
        <!-- Link insta web -->
        <div class="row">
            <div class="col-25">
-             <label for="link">Link</label>
+             <label for="link">lINK TO SOCIALS</label>
            </div>
            <div class="col-75">
-             <input type="text" name="link" id="link" placeholder="link insta or website" required="">
+             <input type="text" name="link" id="link" placeholder="EX: instagram , tiktok , website OR other" required="https:/">
            </div>
          </div>
    
-   
-           <!-- Branch --> 
-           <div class="row">
-               <div class="col-25">
-                 <label for="branch">Branch</label>
-               </div>
-               <div class="col-75">
-                 <input type="text" name="branch" id="branch" placeholder="Your branch" required="">
-               </div>
-             </div>
-   
+  
    
             <!-- Email -->
             <div class="row">
                <div class="col-25">
-                 <label for="email-address">Email Address</label>
+                 <label for="email-address">EMAIL</label>
                </div>
                <div class="col-75">
-                 <input type="text" name="email" id="email-address" placeholder="email@domain.tld" required="">
+                 <input type="text" name="email" id="email-address" placeholder="EX: myname@example.com" required="">
                </div>
              </div>
        
-           
-             <!-- Full name -->
-             <div class="row">
-               <div class="col-25">
-                 <label for="full-name">Full Name</label>
-               </div>
-               <div class="col-75">
-                 <input type="text" name="full-name" id="full-name" placeholder="First and Last" required="">
-               </div>
-             </div>
+        
    
    
          <!-- Telefoon nummer -->
          <div class="row">
            <div class="col-25">
-             <label for="phone-nummer">Phone number</label>
+             <label for="phone-nummer">PHONE NUMBER</label>
            </div>
            <div class="col-75">
              <input type="text" name="phone-name" id="phone-number" placeholder="+31()" required="">
@@ -72,10 +73,10 @@
          <!-- Motivatie message -->
          <div class="row">
            <div class="col-25">
-             <label for="motivation-message">Motivation message</label>
+             <label for="motivation-message">MOTIVATION </label>
            </div>
            <div class="col-75">
-             <textarea rows="3" name="message" id="message" required="" placeholder="Motivation message "></textarea>
+             <textarea rows="3" name="message" id="message" required="" placeholder="The reason why i want to join as a creative..."></textarea>
          <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
            </div>
          </div>
@@ -83,7 +84,7 @@
          <!-- Bestand -->
          <div class="row">
            <div class="col-25">
-             <label for="subject">motivation video [file]</label>
+             <label for="subject">MOTIVATION (FILE)</label>
            </div>
            <div class="col-75">
                <input id="file-button" type="file" name="attachment" accept="image/png, image/jpeg">
@@ -93,7 +94,7 @@
          <!-- How did you hear about this form? -->
          <div class="row">
            <div class="col-25">
-             <label for="reclame">How did you hear about this form?</label>
+             <label for="reclame">HOW DID YOU HEAR ABOUT THIS FORM?</label>
            </div>
            <div class="col-75">
              <select id="reclame" name="reclame">
