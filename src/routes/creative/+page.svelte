@@ -7,7 +7,7 @@
     <Navigation></Navigation>
     <div class="row">
         <div class="column">
-            <h1>IMPACT</h1>
+          <img src="/images/logo.png" alt="Italian Trulli" >
             <h3>*In registering, it's important to remember that you're not immediately signed up. There's still a selection process you'll need to go through.</h3>
         </div>
         <div class="column">
