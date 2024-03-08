@@ -4,7 +4,7 @@
 <body>
     <div class="row">
         <div class="column">
-            <img src="/images/logo.png" alt="Italian Trulli" >
+            <h1>IMPACT</h1>
           <h3>WELCOME TO THE IMPACT</h3>
         <span>APPLICATION FORM</span>
         </div>
@@ -17,7 +17,7 @@
             </ul>
         </div>
 
-        <!-- <Footer></Footer> -->
+        <Footer></Footer>
 </body>
 
 

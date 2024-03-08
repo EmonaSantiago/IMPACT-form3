@@ -20,7 +20,7 @@
 }
 
 .container {
-  padding: 80px;
+  padding: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
