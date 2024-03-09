@@ -35,7 +35,7 @@ img {
 }
 
 body {
-    margin: 0;
+    margin: 2em;
     background-image: url("/images/homepage.png");
     height: 100vh;
     background-position: center;
@@ -63,7 +63,7 @@ body {
 
 h1 {
     color: var(--impact-yellow);
-    font-size: 120px;
+    font-size: 115px;
 }
 
 h3, span {
