@@ -65,7 +65,7 @@ body {
 
 h1 {
     color: var(--impact-yellow);
-    font-size: 115px;
+    font-size: 100px;
 }
 
 h3, span {

@@ -3,9 +3,9 @@
       <h2>FOR MORE QUESTIONS</h2>
       <ul class="links">
         <li><a href="/"><img src="images/tel.png" alt="Facebook">+31 6 22428876</a></li>
-        <li><a href="/"><img src="images/mail.png" alt="Twitter">info.impactofficials@gmail.com</a></li>
-        <li><a href="/"><img src="images/insta.png" alt="Instagram">impact.officials</a></li>
-        <li><a href="/"><img src="images/tiktok.png" alt="LinkedIn">impact.officials</a></li>
+        <li><a href="mailto: info.impactofficials@gmail.com"><img src="images/mail.png" alt="Twitter">info.impactofficials@gmail.com</a></li>
+        <li><a href="https://www.instagram.com/impact.officials/"><img src="images/insta.png" alt="Instagram">impact.officials</a></li>
+        <li><a href=""><img src="images/tiktok.png" alt="LinkedIn">impact.officials</a></li>
       </ul>
     </div>
   </footer>
@@ -56,7 +56,7 @@ li {
 }
 
 /* Media query for mobile */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .container {
     flex-direction: column;
     padding: 10px;
