@@ -1,7 +1,3 @@
-<script>
-    import Form from "$lib/components/1form.svelte";
-import Footer from "$lib/components/footer.svelte";
-</script>
 
 <body>
     <div class="row">
