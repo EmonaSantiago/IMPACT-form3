@@ -1,5 +1,6 @@
 <script>
-    import Footer from "$lib/components/footer.svelte";
+    import Form from "$lib/components/1form.svelte";
+import Footer from "$lib/components/footer.svelte";
 </script>
 
 <body>
@@ -17,9 +18,10 @@
                 <a href="/crew">CREW</a>
             </ul>
         </div>
+
+    
 </body>
 
-<Footer></Footer>
 
 <style>
 * {
