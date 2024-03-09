@@ -1,6 +1,4 @@
-<script>
-    import Footer from "$lib/components/footer.svelte";
-</script>
+
 <body>
     <div class="row">
         <div class="column">
