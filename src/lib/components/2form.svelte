@@ -57,7 +57,7 @@
           <label for="size-top">SIZE CLOTHING TOP</label>
         </div>
         <div class="col-75">
-          <input type="text" name="size-top" id="size-top" placeholder="EX: S/36 , M/38" required="">
+          <input type="text" name="size-top" id="size-top" placeholder="EX: M/38" required="">
         </div>
       </div>
       
@@ -98,7 +98,7 @@
           <label for="phone-nummer">PHONE NUMBER</label>
         </div>
         <div class="col-75">
-          <input type="text" name="phone-name" id="phone-number" placeholder="+31 6" required="">
+          <input type="text" name="phone-name" id="phone-number" placeholder="" required="">
         </div>
       </div>
 
@@ -116,7 +116,7 @@
                <!-- How did you hear about this form? -->
       <div class="row">
         <div class="col-25">
-          <label for="reclame">HOW DID YOU HEAR ABOUT THIS FORM?</label>
+          <label for="reclame">HOW DID YOU HEAR ABOUT US?</label>
         </div>
         <div class="col-75">
           <select id="reclame" name="reclame">
@@ -217,6 +217,16 @@
     .button1:hover {
     background-color: #F8F053;
     }
+
+    #reclame {
+    color: var(--impact-dark-grey);
+   }
+
+   #gender {
+    color: var(--impact-dark-grey);
+   }
+   
+   
     
     @media (max-width: 600px) {
     /* Adjust for smaller screens */

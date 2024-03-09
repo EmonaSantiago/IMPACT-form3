@@ -19,7 +19,7 @@
       <label for="function">ROLE</label>
     </div>
     <div class="col-75">
-      <input type="text" name="function" id="function" placeholder="EX: photo/videographer , marketeer , audio-Visual , technician, security OR other" required="">
+      <input type="text" name="function" id="function" placeholder="EX: stagehands , content creators , security OR other" required="">
     </div>
   </div>
 
@@ -51,7 +51,7 @@
           <label for="phone-nummer">PHONE NUMBER</label>
         </div>
         <div class="col-75">
-          <input type="text" name="phone-name" id="phone-number" placeholder="+31 6" required="">
+          <input type="text" name="phone-name" id="phone-number" placeholder="" required="">
         </div>
       </div>
 
@@ -68,7 +68,7 @@
 <!-- How did you hear about this form? -->
 <div class="row">
     <div class="col-25">
-      <label for="reclame">HOW DID YOU HEAR ABOUT THIS FORM?</label>
+      <label for="reclame">HOW DID YOU HEAR ABOUT US?</label>
     </div>
     <div class="col-75">
       <select id="reclame" name="reclame">
@@ -244,6 +244,12 @@
     #file-button {
       color: greyc;
     }
+
+    #reclame {
+    color: var(--impact-dark-grey);
+   }
+   
+   
     
     /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (min-width: 600px){
