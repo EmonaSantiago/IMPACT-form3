@@ -15,7 +15,7 @@
             </ul>
         </div>
 
-        <Footer></Footer>
+
 </body>
 
 
