@@ -7,8 +7,9 @@
     <Navigation></Navigation>
     <div class="row">
         <div class="column">
-          <img src="/images/logo.png" alt="Italian Trulli" >
-            <h3>*In registering, it's important to remember that you're not immediately signed up. There's still a selection process you'll need to go through.</h3>
+          <h1>IMPACT</h1>
+            <h3>*When registering, it's crucial to keep in mind that you won't be automatically enrolled. Instead, there's a selection process that you'll need to undergo.</h3>
+
         </div>
         <div class="column">
          <Form></Form>
@@ -20,9 +21,7 @@
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
     
-        :root {
-            --impact-yellow: #F8F053;
-        }
+        
     
         body {
         margin: 0;
@@ -51,7 +50,7 @@
     h3 {
     font-family: MADE Future x;
     font-size: 12px;
-    color: rgba(121, 120, 120, 0.643);
+    color:  var(--impact-light-grey);
     padding: 1em;
     padding-top: 0;
 }

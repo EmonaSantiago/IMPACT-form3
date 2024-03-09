@@ -7,7 +7,7 @@
   <Navigation></Navigation>
   <div class="row">
       <div class="column">
-        <img src="/images/logo.png" alt="Italian Trulli" >
+        <h1>IMPACT</h1>
           <h3>"Looking to be part of a great team? Join us as a crew member and help us make our events even more impactfull! Whether you're experienced or just starting out, there's a place for you. Let's work together, have fun, and create memorable experiences. Apply now and be part of something special!"</h3>
       </div>
       <div class="column">
@@ -21,9 +21,6 @@
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
-    :root {
-        --impact-yellow: #F8F053;
-    }
 
     body {
     margin: 0;
@@ -52,7 +49,7 @@ h2 {
 h3 {
 font-family: MADE Future x;
 font-size: 12px;
-color: rgba(121, 120, 120, 0.643);
+color: var(--impact-light-grey);
 padding: 1em;
 padding-top: 0;
 }

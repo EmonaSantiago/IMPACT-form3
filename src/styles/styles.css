@@ -5,3 +5,11 @@
 img {
     width: 100%;
 }
+
+:root {
+    --impact-black: #000000;
+    --impact-white: #FFFFFF;
+    --impact-yellow: #F8F053;
+    --impact-light-grey: #C2C1C1;
+    --impact-dark-grey: #474747;
+}
